@@ -50,4 +50,4 @@ Another is that we just take a linear average of the hough space points where in
 
 ###3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to subdivate the image into horazontal segments find the left and right lanes in each of these semgment. Pick control points from each of the semgents then form a Bézier curve or a spline to get a better local approximation of the lane lines. This could be used to handle a curive in the road.
+A possible improvement would be to subdivide the image into horizontal segments find the left and right lanes in each of these segments. Pick control points from each of the segments then form a Bézier curve or a spline to get a better local approximation of the lane lines. This could be used to handle a curves in the road.
