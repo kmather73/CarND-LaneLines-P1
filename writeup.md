@@ -44,7 +44,7 @@ In order to draw a single line on the left and right lanes, we apply a hough tra
 
 ###2. Identify potential shortcomings with your current pipeline
 
-One potential shortcoming would be that then we are tring to classify the points produced from the hough transform we only consider there to be two class's for each of the lines it might be better to use k-means with a (k > 2) to take into account bends in the road.
+One potential shortcoming would be that then we are tring to classify the points produced from the hough transform we only consider there to be two class's for each of the lane lines, it might be better to use k-means with a (k > 2) to take into account bends in the road.
 
 Another is that we just take a linear average of the hough space points where instead we should take a weighted average where each point in hough space has a weight proportional to its distance in images space from the bottom center of the image.
 
